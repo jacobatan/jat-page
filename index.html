@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jacob Tan</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a9faa70e1e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="about-me">
@@ -39,11 +43,15 @@
           </li>
         </ul>
       </nav>
-      <div>
+      <div class="flex-1">
         <div class="about-me__info row">
           <div class="about-me__info--container">
             <figure class="about-me__picture--mask">
-              <img src="./assets/jat.png" alt="pic of me :D" />
+              <img
+                src="./assets/jat.png"
+                class="about-me__picture"
+                alt="pic of me :D"
+              />
             </figure>
             <h1 class="about-me__info--title">
               Hey! I'm <span class="text--purple"> Jacob Tan </span> 👋
@@ -52,7 +60,32 @@
               I <strong class="text--purple">haven't</strong> gotten around to
               writing anything here, enjoy this barren summary...
             </p>
+            <div class="about-me__links">
+              <a
+                href="https://www.linkedin.com/in/jacob-tan-4aa914206/"
+                class="about-me__link"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="about-me__link" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="about-me__link" target="_blank">
+                <i class="far fa-envelope"></i>
+              </a>
+              <a href="#" class="about-me__link" target="_blank">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
           </div>
+          <figure class="about-me__img--container">
+            <img
+              class="about-me__img"
+              src="./assets/undraw_Developer_activity.svg"
+              alt=""
+            />
+          </figure>
         </div>
       </div>
     </section>
