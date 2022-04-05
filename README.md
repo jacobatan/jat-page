@@ -1,3 +1,3 @@
 # jat-page
-My personal site :)
+My personal former site :)
 https://jacobatan.github.io/jat-page/
