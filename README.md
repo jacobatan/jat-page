@@ -1,3 +1,3 @@
 # jat-page
 My personal site :)
-https://fragilejate.github.io/jat-page/
+https://jacobatan.github.io/jat-page/
